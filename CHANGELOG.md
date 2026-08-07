@@ -2,6 +2,13 @@
 
 [Português](CHANGELOG.md) · [English](CHANGELOG.en.md) · [Español](CHANGELOG.es.md)
 
+## 0.1.3 — 2026-08-07
+
+- Corrige a assinatura ad-hoc parcial dos pacotes macOS `0.1.2`, que o Gatekeeper reportava como aplicativo danificado.
+- Adiciona assinatura completa e validação profunda dos bundles, DMGs e ZIPs macOS antes da publicação.
+- Bloqueia a substituição automática no Mac sem Developer ID e preserva a instalação atual.
+- No primeiro uso do pacote ad-hoc, abra com Control/clique direito → **Abrir**. Windows não foi afetado.
+
 ## 0.1.2 — 2026-08-07
 
 - Altera a atualização automática do painel Usage de 60 segundos para 5 minutos.

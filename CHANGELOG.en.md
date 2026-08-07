@@ -2,6 +2,13 @@
 
 [Português](CHANGELOG.md) · [English](CHANGELOG.en.md) · [Español](CHANGELOG.es.md)
 
+## 0.1.3 — 2026-08-07
+
+- Fixes the partial ad-hoc signature in the macOS `0.1.2` packages, which Gatekeeper reported as a damaged application.
+- Adds complete signing and deep validation of macOS bundles, DMGs, and ZIPs before publication.
+- Blocks automatic replacement on Macs without a Developer ID and preserves the current installation.
+- On the first launch of the ad-hoc package, Control-click/right-click → **Open**. Windows was not affected.
+
 ## 0.1.2 — 2026-08-07
 
 - Changes automatic Usage refresh from 60 seconds to 5 minutes.

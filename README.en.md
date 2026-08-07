@@ -16,6 +16,10 @@ and select the file for your platform:
 - **Windows 64-bit**: `Orkestrai-Setup-*.exe`
 - **Linux 64-bit**: `Orkestrai-*.AppImage`
 
+On macOS without Apple signing, drag Orkestrai to Applications and
+Control-click/right-click the app → **Open** on the first launch. Do not use the
+macOS `0.1.2` packages; their internal signature was fixed in `0.1.3`.
+
 Files ending in `*.zip`, `*.blockmap`, and `latest*.yml` are used by the
 application's automatic update system. For a manual installation, use a DMG,
 EXE, or AppImage file.
@@ -28,9 +32,9 @@ before the new version replaces the previous one. Workspaces, settings, and
 voice models are stored in the user's data directory and are not removed during
 an update.
 
-On macOS without Apple code signing, the application may redirect you to the
-manual download. Windows and Linux support automatic replacement through the
-installers published here.
+On macOS without Apple code signing, the application detects the new release
+but uses a manual download and never removes the current installation. Windows
+and Linux support automatic replacement through the installers published here.
 
 Versions `0.0.1` and `0.1.0` were packaged without the updater module. Install
 `0.1.1` manually once to enable the corrected flow.
