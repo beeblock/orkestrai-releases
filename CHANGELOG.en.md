@@ -2,6 +2,13 @@
 
 [Português](CHANGELOG.md) · [English](CHANGELOG.en.md) · [Español](CHANGELOG.es.md)
 
+## 0.1.2 — 2026-08-07
+
+- Changes automatic Usage refresh from 60 seconds to 5 minutes.
+- Aligns the server cache to prevent duplicate provider requests.
+- Keeps the manual refresh button fetching fresh data immediately.
+- Reduces the risk of Claude HTTP 429 responses during long sessions.
+
 ## 0.1.1 — 2026-08-07
 
 - Includes `electron-updater` in the installed application.

@@ -2,6 +2,13 @@
 
 [Português](CHANGELOG.md) · [English](CHANGELOG.en.md) · [Español](CHANGELOG.es.md)
 
+## 0.1.2 — 2026-08-07
+
+- Altera a atualização automática do painel Usage de 60 segundos para 5 minutos.
+- Alinha o cache do servidor para evitar consultas duplicadas aos providers.
+- Mantém o botão de atualização manual buscando dados novos imediatamente.
+- Reduz o risco de respostas HTTP 429 do Claude em sessões longas.
+
 ## 0.1.1 — 2026-08-07
 
 - Inclui `electron-updater` no aplicativo instalado.
