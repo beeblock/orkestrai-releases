@@ -11,7 +11,7 @@ y elige el archivo correspondiente a tu plataforma:
 
 - **macOS Apple Silicon** (M1/M2/M3/M4): `Orkestrai-*-arm64.dmg`
 - **macOS Intel**: `Orkestrai-*.dmg` sin `arm64` en el nombre
-- **Windows de 64 bits**: `Orkestrai Setup *.exe`
+- **Windows de 64 bits**: `Orkestrai-Setup-*.exe`
 - **Linux de 64 bits**: `Orkestrai-*.AppImage`
 
 Los archivos `*.zip`, `*.blockmap` y `latest*.yml` son utilizados por el sistema

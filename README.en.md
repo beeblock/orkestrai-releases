@@ -11,7 +11,7 @@ and select the file for your platform:
 
 - **macOS Apple Silicon** (M1/M2/M3/M4): `Orkestrai-*-arm64.dmg`
 - **macOS Intel**: `Orkestrai-*.dmg` without `arm64` in the filename
-- **Windows 64-bit**: `Orkestrai Setup *.exe`
+- **Windows 64-bit**: `Orkestrai-Setup-*.exe`
 - **Linux 64-bit**: `Orkestrai-*.AppImage`
 
 Files ending in `*.zip`, `*.blockmap`, and `latest*.yml` are used by the
