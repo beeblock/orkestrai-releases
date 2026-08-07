@@ -1,5 +1,7 @@
 # Orkestrai Releases
 
+**Português** · [English](README.en.md) · [Español](README.es.md)
+
 Downloads oficiais do Orkestrai para macOS, Windows e Linux.
 
 ## Baixar
