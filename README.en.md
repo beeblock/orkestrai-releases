@@ -4,6 +4,8 @@
 
 Official Orkestrai downloads for macOS, Windows, and Linux.
 
+Change history: [CHANGELOG.en.md](CHANGELOG.en.md).
+
 ## Download
 
 Open the [latest release](https://github.com/beeblock/orkestrai-releases/releases/latest)
@@ -29,5 +31,8 @@ an update.
 On macOS without Apple code signing, the application may redirect you to the
 manual download. Windows and Linux support automatic replacement through the
 installers published here.
+
+Versions `0.0.1` and `0.1.0` were packaged without the updater module. Install
+`0.1.1` manually once to enable the corrected flow.
 
 Website: [orkestrai.app](https://orkestrai.app)
