@@ -7,7 +7,7 @@
 - Corrige la firma ad-hoc parcial de los paquetes macOS `0.1.2`, que Gatekeeper reportaba como una aplicación dañada.
 - Añade firma completa y validación profunda de bundles, DMGs y ZIPs macOS antes de publicar.
 - Bloquea el reemplazo automático en Mac sin Developer ID y preserva la instalación actual.
-- En el primer inicio del paquete ad-hoc, usa Control/clic derecho → **Abrir**. Windows no fue afectado.
+- En el primer inicio del paquete ad-hoc, intenta abrir la app, cierra el aviso y usa Ajustes del Sistema → Privacidad y seguridad → Seguridad → **Abrir de todos modos**; autentícate y confirma **Abrir**. Windows no fue afectado.
 
 ## 0.1.2 — 2026-08-07
 

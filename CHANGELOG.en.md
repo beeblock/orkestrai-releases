@@ -7,7 +7,7 @@
 - Fixes the partial ad-hoc signature in the macOS `0.1.2` packages, which Gatekeeper reported as a damaged application.
 - Adds complete signing and deep validation of macOS bundles, DMGs, and ZIPs before publication.
 - Blocks automatic replacement on Macs without a Developer ID and preserves the current installation.
-- On the first launch of the ad-hoc package, Control-click/right-click → **Open**. Windows was not affected.
+- On the first launch of the ad-hoc package, try to open the app, dismiss the warning, then use System Settings → Privacy & Security → Security → **Open Anyway**; authenticate and confirm **Open**. Windows was not affected.
 
 ## 0.1.2 — 2026-08-07
 

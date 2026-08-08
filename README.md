@@ -16,10 +16,20 @@ e escolha o arquivo da sua plataforma:
 - **Windows 64-bit**: `Orkestrai-Setup-*.exe`
 - **Linux 64-bit**: `Orkestrai-*.AppImage`
 
-No macOS sem assinatura Apple, arraste o Orkestrai para Aplicativos e, no
-primeiro uso, clique com Control/botão direito no app e escolha **Abrir**. Não
-use os pacotes macOS `0.1.2`; a assinatura interna deles foi corrigida na
+No macOS sem assinatura Apple, arraste o Orkestrai para Aplicativos, tente
+abri-lo e feche o aviso. Depois abra **Ajustes do Sistema → Privacidade e
+Segurança**, desça até **Segurança**, clique em **Abrir Mesmo Assim**, autentique
+e confirme **Abrir**. O botão aparece por cerca de uma hora após a tentativa.
+Não use os pacotes macOS `0.1.2`; a assinatura interna deles foi corrigida na
 `0.1.3`.
+
+Se o botão não aparecer, tente abrir o app novamente. Como último recurso para
+o pacote baixado desta página, execute no Terminal:
+
+```bash
+sudo xattr -rd com.apple.quarantine "/Applications/Orkestrai.app"
+open "/Applications/Orkestrai.app"
+```
 
 Arquivos `*.zip`, `*.blockmap` e `latest*.yml` são usados pela atualização
 automática do aplicativo. Para instalação manual, use DMG, EXE ou AppImage.

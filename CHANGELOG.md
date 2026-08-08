@@ -7,7 +7,7 @@
 - Corrige a assinatura ad-hoc parcial dos pacotes macOS `0.1.2`, que o Gatekeeper reportava como aplicativo danificado.
 - Adiciona assinatura completa e validação profunda dos bundles, DMGs e ZIPs macOS antes da publicação.
 - Bloqueia a substituição automática no Mac sem Developer ID e preserva a instalação atual.
-- No primeiro uso do pacote ad-hoc, abra com Control/clique direito → **Abrir**. Windows não foi afetado.
+- No primeiro uso do pacote ad-hoc, tente abrir o app, feche o aviso e use Ajustes do Sistema → Privacidade e Segurança → Segurança → **Abrir Mesmo Assim**; autentique e confirme **Abrir**. Windows não foi afetado.
 
 ## 0.1.2 — 2026-08-07
 
