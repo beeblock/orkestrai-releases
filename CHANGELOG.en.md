@@ -2,6 +2,14 @@
 
 [Português](CHANGELOG.md) · [English](CHANGELOG.en.md) · [Español](CHANGELOG.es.md)
 
+## 0.1.4 — 2026-08-08
+
+- First macOS release signed with Developer ID Application and notarized by Apple.
+- Verifies authority, Team ID, Hardened Runtime, Gatekeeper, and the notarization ticket before publishing Apple Silicon and Intel builds.
+- Removes the damaged-app and unidentified-developer warnings from new Mac downloads.
+- Mac users on `0.1.3` or earlier need to install `0.1.4` manually once; subsequent signed versions can update through the app.
+- Publishes the same release to the legacy and main feeds to prepare future update migration.
+
 ## 0.1.3 — 2026-08-07
 
 - Fixes the partial ad-hoc signature in the macOS `0.1.2` packages, which Gatekeeper reported as a damaged application.

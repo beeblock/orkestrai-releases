@@ -2,16 +2,16 @@
 
 [Português](README.md) · [English](README.en.md) · **Español**
 
-Este es el feed legado de Orkestrai. Las nuevas releases y descargas oficiales
-se publican en el [repositorio principal](https://github.com/beeblock/orkestrai/releases).
-La release `0.1.4` permanecerá aquí como puente para las instalaciones que aún
-consultan esta dirección.
+Este es el feed público de descargas de Orkestrai durante la transición del
+repositorio principal. La release firmada `0.1.4` permanece aquí como puente para
+las instalaciones existentes y como descarga oficial mientras el nuevo destino
+aún no sea público.
 
 Historial de cambios: [CHANGELOG.es.md](CHANGELOG.es.md).
 
 ## Descargar
 
-Accede a la [versión más reciente](https://github.com/beeblock/orkestrai/releases/latest)
+Accede a la [versión más reciente](https://github.com/beeblock/orkestrai-releases/releases/latest)
 y elige el archivo correspondiente a tu plataforma:
 
 - **macOS Apple Silicon** (M1/M2/M3/M4): `Orkestrai-*-arm64.dmg`
