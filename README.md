@@ -2,13 +2,16 @@
 
 **Português** · [English](README.en.md) · [Español](README.es.md)
 
-Downloads oficiais do Orkestrai para macOS, Windows e Linux.
+Este é o feed legado do Orkestrai. Novas releases e downloads oficiais ficam no
+[repositório principal](https://github.com/beeblock/orkestrai/releases). A
+release `0.1.4` permanecerá aqui como ponte para instalações que ainda consultam
+este endereço.
 
 Histórico de mudanças: [CHANGELOG.md](CHANGELOG.md).
 
 ## Baixar
 
-Acesse a [release mais recente](https://github.com/beeblock/orkestrai-releases/releases/latest)
+Acesse a [release mais recente](https://github.com/beeblock/orkestrai/releases/latest)
 e escolha o arquivo da sua plataforma:
 
 - **macOS Apple Silicon** (M1/M2/M3/M4): `Orkestrai-*-arm64.dmg`
@@ -36,7 +39,8 @@ automática do aplicativo. Para instalação manual, use DMG, EXE ou AppImage.
 
 ## Atualizações automáticas
 
-O Orkestrai verifica este repositório ao iniciar e novamente a cada seis horas.
+Versões até `0.1.3` verificam este repositório ao iniciar e novamente a cada seis
+horas. A `0.1.4` migra o aplicativo para o feed do repositório principal.
 O download é validado pelo SHA-512 publicado nos manifests antes de a nova
 versão substituir a anterior. Workspaces, configurações e modelos de voz ficam
 no diretório de dados do usuário e não são removidos durante uma atualização.
