@@ -2,6 +2,16 @@
 
 [Português](CHANGELOG.md) · [English](CHANGELOG.en.md) · [Español](CHANGELOG.es.md)
 
+## 0.8.1 — 2026-08-10
+
+- Corrige o ditado global no primeiro clique e adiciona fixação, arraste e desvio automático dos painéis à bolinha de voz.
+- Adiciona pesquisa e rolagem aos seletores com catálogos grandes de modelos, como o Devin.
+- Melhora o contraste do Orkestrai Light em nós, painéis, textos, ícones, marcas dos providers, botões e hovers.
+- Organiza os nós selecionados ou todo o canvas de forma determinística e mantém conexões atrás dos nós.
+- Iguala as cores de severidade do Uso no painel e no nó e carrega resultados iniciais em Skills automaticamente.
+- Valida conversas dos providers antes da retomada para evitar sessões obsoletas e reinjeção desnecessária de roles.
+- Corrige a inicialização das CLIs no Windows, a seleção no terminal com DPI e adiciona barra de título e menu estilizados.
+
 ## 0.8.0 — 2026-08-10
 
 - Adiciona um nó Uso persistente no canvas para as cotas de Claude, Codex e Kimi.

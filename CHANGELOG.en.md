@@ -2,6 +2,16 @@
 
 [Português](CHANGELOG.md) · [English](CHANGELOG.en.md) · [Español](CHANGELOG.es.md)
 
+## 0.8.1 — 2026-08-10
+
+- Fixes first-click global dictation and adds pinning, dragging, and automatic panel avoidance to the voice orb.
+- Adds searchable, scrollable model selectors for large provider catalogs such as Devin.
+- Improves Orkestrai Light contrast across nodes, panels, text, icons, provider marks, buttons, and hover states.
+- Organizes selected nodes or the whole canvas deterministically and keeps connections behind nodes.
+- Matches Usage severity colors across panel and node and loads initial Skills results automatically.
+- Validates provider conversations before resume to avoid stale session errors and unnecessary role reinjection.
+- Fixes Windows CLI startup, DPI-aware terminal selection, and adds a styled desktop title bar and menu.
+
 ## 0.8.0 — 2026-08-10
 
 - Adds a persistent Usage canvas node for Claude, Codex, and Kimi quotas.
