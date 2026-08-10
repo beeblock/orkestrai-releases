@@ -2,6 +2,35 @@
 
 [Português](CHANGELOG.md) · [English](CHANGELOG.en.md) · [Español](CHANGELOG.es.md)
 
+## 0.5.0 — 2026-08-10
+
+- Añade dictado local en todos los campos editables y mantiene al líder del canvas como fallback cuando no hay campo enfocado.
+- Permite cambiar el provider de un agente sin perder rol, piso, layout ni conexiones del miembro.
+- Amplía los roles de presets con protocolos operativos completos y los aplica automáticamente al iniciar la PTY.
+- Entrega al líder los briefings completos de tareas sin responsable al iniciar y exige delegar primero mediante el kanban.
+- Distingue tarea completada, proyecto completado y atención en las notificaciones nativas.
+- Muestra títulos, etapas y responsables en Pisos y corrige la edición de texto grande en las formas.
+
+## 0.4.0 — 2026-08-09
+
+- Añade Cursor, Antigravity y Cline como providers nativos junto con Claude, Codex, Kimi y OpenCode.
+- Añade la Central de Providers con detección local, setup por sistema, inicio de sesión oficial, modelos, esfuerzo y reanudación.
+- Define inglés como idioma predeterminado en instalaciones nuevas y pregunta primero el idioma en el onboarding.
+- Inicia terminales de presets con las flags autónomas de acceso total y repara terminales predeterminadas antiguas de forma segura.
+
+## 0.3.0 — 2026-08-09
+
+- Añade hasta diez etapas personalizadas del kanban compartidas por UI, CLI, MCP, líder y equipo.
+- Añade presets completos de Campaña, Brand y diseño y Contenido y SEO para equipos multidisciplinares.
+- Añade el equipo de consenso Orkestrai Contributing con Claude, Codex, Kimi y agentes especialistas.
+
+## 0.2.0 — 2026-08-09
+
+- Añade la Biblioteca de presets con equipos listos de Producto, React, Next.js, SvelteKit, Svelar y Laravel.
+- Añade doce roles especialistas instalables y skills portátiles en los presets.
+- Añade la vista operativa de Pisos y menús de escritorio nativos traducidos.
+- Actualiza Configuración y Documentación con el sistema visual del producto.
+
 ## 0.1.4 — 2026-08-08
 
 - Primera release para macOS firmada con Developer ID Application y notarizada por Apple.

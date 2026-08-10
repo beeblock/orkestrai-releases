@@ -2,6 +2,35 @@
 
 [Português](CHANGELOG.md) · [English](CHANGELOG.en.md) · [Español](CHANGELOG.es.md)
 
+## 0.5.0 — 2026-08-10
+
+- Adiciona ditado local em todos os campos editáveis, mantendo o líder do canvas como fallback quando não há campo em foco.
+- Permite trocar o provider de um agente sem perder role, andar, layout ou conexões do membro.
+- Expande as roles dos presets em protocolos operacionais completos e as aplica automaticamente ao iniciar a PTY.
+- Entrega ao líder os briefings completos das tarefas sem responsável no startup e exige delegação primeiro pelo kanban.
+- Distingue tarefa concluída, projeto concluído e atenção nas notificações nativas.
+- Mostra títulos, etapas e responsáveis das tarefas em Andares e corrige a edição de texto grande nas formas.
+
+## 0.4.0 — 2026-08-09
+
+- Adiciona Cursor, Antigravity e Cline como providers nativos ao lado de Claude, Codex, Kimi e OpenCode.
+- Adiciona a Central de Providers com detecção local, setup por sistema, login oficial, modelos, esforço e retomada.
+- Define inglês como padrão nas novas instalações e pergunta primeiro o idioma no onboarding.
+- Inicia terminais de presets com as flags autônomas de acesso total e repara terminais padrão antigos com segurança.
+
+## 0.3.0 — 2026-08-09
+
+- Adiciona até dez etapas personalizadas de kanban compartilhadas entre UI, CLI, MCP, líder e equipe.
+- Adiciona presets completos de Campanha, Brand e design e Conteúdo e SEO para times multidisciplinares.
+- Adiciona o time de consenso Orkestrai Contributing com Claude, Codex, Kimi e agentes especialistas.
+
+## 0.2.0 — 2026-08-09
+
+- Adiciona a Biblioteca de presets com times prontos de Produto, React, Next.js, SvelteKit, Svelar e Laravel.
+- Adiciona doze roles especialistas instaláveis e skills portáteis nos presets.
+- Adiciona a visão operacional de Andares e menus desktop nativos traduzidos.
+- Atualiza Configurações e Documentação com o sistema visual do produto.
+
 ## 0.1.4 — 2026-08-08
 
 - Primeira release macOS assinada com Developer ID Application e notarizada pela Apple.
