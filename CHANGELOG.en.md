@@ -2,6 +2,15 @@
 
 [Português](CHANGELOG.md) · [English](CHANGELOG.en.md) · [Español](CHANGELOG.es.md)
 
+## 0.5.2 — 2026-08-10
+
+- Allows local dictation recordings of approximately 15 minutes instead of failing at the packaged server's former 512 KB request limit.
+- Restores saved Portals automatically when their local dev server starts after the canvas and waits for the real page before automation.
+- Reserves distinct conversation ids for concurrent Claude agents, preventing crossed transcripts and corrupted replies.
+- Preserves actionable Portal errors and never sends raw TUI redraw output as a provider reply.
+- Avoids re-injecting roles on resume and wakes only agents with unfinished assigned tasks or the leader when open work still needs an owner.
+- Keeps the server responsive while macOS waits for workspace-folder permission and safely retries interrupted provisioning.
+
 ## 0.5.1 — 2026-08-10
 
 - Discards obsolete process-local PTY ids after an application restart while preserving each provider conversation id.

@@ -2,6 +2,15 @@
 
 [Português](CHANGELOG.md) · [English](CHANGELOG.en.md) · [Español](CHANGELOG.es.md)
 
+## 0.5.2 — 2026-08-10
+
+- Permite gravações de ditado local de aproximadamente 15 minutos, sem falhar no antigo limite de 512 KB do servidor empacotado.
+- Restaura Portais salvos automaticamente quando o dev server local inicia depois do canvas e aguarda a página real antes da automação.
+- Reserva IDs de conversa distintos para agentes Claude concorrentes, evitando transcripts trocados e respostas corrompidas.
+- Preserva erros úteis dos Portais e nunca envia redraw bruto da TUI como resposta de provider.
+- Não injeta roles novamente na retomada e acorda apenas agentes com tarefas atribuídas ainda abertas ou o líder quando há trabalho sem responsável.
+- Mantém o servidor respondendo enquanto o macOS aguarda a permissão da pasta do workspace e repete com segurança o provisionamento interrompido.
+
 ## 0.5.1 — 2026-08-10
 
 - Descarta IDs locais de PTY obsoletos após reiniciar o app e preserva o ID da conversa de cada provider.
