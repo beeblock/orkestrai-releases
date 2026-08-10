@@ -2,6 +2,14 @@
 
 [Português](CHANGELOG.md) · [English](CHANGELOG.en.md) · [Español](CHANGELOG.es.md)
 
+## 0.8.0 — 2026-08-10
+
+- Adds a persistent Usage canvas node for Claude, Codex, and Kimi quotas.
+- Configures a source provider, fallback provider, and threshold shared with leaders through the CLI and MCP `usage` action.
+- Adds three dark themes, one light theme, and a semantic token editor with live preview.
+- Supports custom theme duplication and validated JSON import/export across installations.
+- Applies global theme tokens to the canvas, nodes, Provider Center, Skills, documentation, and Settings.
+
 ## 0.7.0 — 2026-08-10
 
 - Consolidates all provider buttons into one responsive Agents menu while keeping Shell directly accessible.

@@ -2,6 +2,14 @@
 
 [Português](CHANGELOG.md) · [English](CHANGELOG.en.md) · [Español](CHANGELOG.es.md)
 
+## 0.8.0 — 2026-08-10
+
+- Adiciona um nó Uso persistente no canvas para as cotas de Claude, Codex e Kimi.
+- Configura provider de origem, fallback e limite compartilhados com o líder pela ação `usage` da CLI e do MCP.
+- Adiciona três temas escuros, um tema claro e editor de tokens semânticos com prévia imediata.
+- Permite duplicar temas personalizados e importá-los/exportá-los como JSON validado entre instalações.
+- Aplica os tokens globais ao canvas, nós, Central de Providers, Skills, documentação e Configurações.
+
 ## 0.7.0 — 2026-08-10
 
 - Consolida todos os botões de providers em um menu Agentes responsivo, mantendo Shell diretamente acessível.

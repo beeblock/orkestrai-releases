@@ -2,6 +2,14 @@
 
 [Português](CHANGELOG.md) · [English](CHANGELOG.en.md) · [Español](CHANGELOG.es.md)
 
+## 0.8.0 — 2026-08-10
+
+- Agrega un nodo Uso persistente al canvas para las cuotas de Claude, Codex y Kimi.
+- Configura provider de origen, fallback y límite compartidos con el líder mediante la acción `usage` de CLI y MCP.
+- Agrega tres temas oscuros, uno claro y un editor de tokens semánticos con vista previa inmediata.
+- Permite duplicar temas personalizados e importarlos/exportarlos como JSON validado entre instalaciones.
+- Aplica los tokens globales al canvas, nodos, Central de Providers, Skills, documentación y Configuración.
+
 ## 0.7.0 — 2026-08-10
 
 - Consolida todos los botones de providers en un menú Agentes responsivo y mantiene Shell directamente accesible.
