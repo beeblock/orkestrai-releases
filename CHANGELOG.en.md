@@ -2,6 +2,12 @@
 
 [Português](CHANGELOG.md) · [English](CHANGELOG.en.md) · [Español](CHANGELOG.es.md)
 
+## 0.5.1 — 2026-08-10
+
+- Discards obsolete process-local PTY ids after an application restart while preserving each provider conversation id.
+- Automatically recreates terminals and resumes their conversations instead of leaving every node on a missing-session error.
+- Makes recovery deterministic with a stable WebSocket error code and persisted replacement session id.
+
 ## 0.5.0 — 2026-08-10
 
 - Adds local dictation to every editable field, with the existing canvas-leader behavior as the no-focus fallback.

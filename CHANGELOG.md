@@ -2,6 +2,12 @@
 
 [Português](CHANGELOG.md) · [English](CHANGELOG.en.md) · [Español](CHANGELOG.es.md)
 
+## 0.5.1 — 2026-08-10
+
+- Descarta IDs locais de PTY obsoletos após reiniciar o app e preserva o ID da conversa de cada provider.
+- Recria os terminais e retoma suas conversas automaticamente, em vez de deixar todos os nós com erro de sessão inexistente.
+- Torna a recuperação determinística com um código WebSocket estável e persistência do ID da sessão substituta.
+
 ## 0.5.0 — 2026-08-10
 
 - Adiciona ditado local em todos os campos editáveis, mantendo o líder do canvas como fallback quando não há campo em foco.
