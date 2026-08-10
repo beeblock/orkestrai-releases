@@ -2,6 +2,13 @@
 
 [Português](CHANGELOG.md) · [English](CHANGELOG.en.md) · [Español](CHANGELOG.es.md)
 
+## 0.7.0 — 2026-08-10
+
+- Consolidates all provider buttons into one responsive Agents menu while keeping Shell directly accessible.
+- Allows up to four ready agents to be pinned beside the menu in the user's preferred order.
+- Persists pinned agents globally across workspaces and application restarts.
+- Keeps unavailable agents discoverable through Provider Center without occupying toolbar space.
+
 ## 0.6.0 — 2026-08-10
 
 - Adds Devin as a native provider with official CLI detection, account model discovery, autonomous sessions, headless work, and exact conversation resume.

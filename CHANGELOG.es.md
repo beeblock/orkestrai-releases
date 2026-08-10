@@ -2,6 +2,13 @@
 
 [Português](CHANGELOG.md) · [English](CHANGELOG.en.md) · [Español](CHANGELOG.es.md)
 
+## 0.7.0 — 2026-08-10
+
+- Consolida todos los botones de providers en un menú Agentes responsivo y mantiene Shell directamente accesible.
+- Permite fijar hasta cuatro agentes listos junto al menú en el orden preferido por el usuario.
+- Conserva los agentes fijados globalmente entre workspaces y reinicios de la aplicación.
+- Mantiene los agentes no disponibles accesibles mediante la Central de Providers sin ocupar espacio en la barra.
+
 ## 0.6.0 — 2026-08-10
 
 - Añade Devin como provider nativo con detección de la CLI oficial, modelos de la cuenta, sesiones autónomas, trabajo headless y reanudación exacta de la conversación.
