@@ -2,6 +2,13 @@
 
 [Português](CHANGELOG.md) · [English](CHANGELOG.en.md) · [Español](CHANGELOG.es.md)
 
+## 0.6.0 — 2026-08-10
+
+- Adds Devin as a native provider with official CLI detection, account model discovery, autonomous sessions, headless work, and exact conversation resume.
+- Provisions the Orkestrai skill and MCP bridge in Devin's native project directories.
+- Uses local ATIF transcripts for clean agent replies and spoken responses, with concurrent sessions matched by workspace.
+- Starts Cursor with workspace trust and MCP approval, and starts Antigravity autonomously with selectable effort.
+
 ## 0.5.2 — 2026-08-10
 
 - Allows local dictation recordings of approximately 15 minutes instead of failing at the packaged server's former 512 KB request limit.

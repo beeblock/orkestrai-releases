@@ -2,6 +2,13 @@
 
 [Português](CHANGELOG.md) · [English](CHANGELOG.en.md) · [Español](CHANGELOG.es.md)
 
+## 0.6.0 — 2026-08-10
+
+- Añade Devin como provider nativo con detección de la CLI oficial, modelos de la cuenta, sesiones autónomas, trabajo headless y reanudación exacta de la conversación.
+- Provisiona la skill y el puente MCP de Orkestrai en los directorios nativos del proyecto Devin.
+- Usa transcripts ATIF locales para respuestas limpias y habladas, con sesiones concurrentes vinculadas por workspace.
+- Inicia Cursor con confianza en el workspace y aprobación de MCP, y Antigravity de forma autónoma con esfuerzo seleccionable.
+
 ## 0.5.2 — 2026-08-10
 
 - Permite grabaciones de dictado local de aproximadamente 15 minutos sin fallar con el antiguo límite de 512 KB del servidor empaquetado.
