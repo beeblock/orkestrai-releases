@@ -2,6 +2,15 @@
 
 [Português](CHANGELOG.md) · [English](CHANGELOG.en.md) · [Español](CHANGELOG.es.md)
 
+## 0.8.2 — 2026-08-10
+
+- Matches Codex rollout sessions to the real workspace directory so concurrent projects cannot cross conversations.
+- Matches Kimi sessions through the provider's exact workspace-path hash instead of a shared final folder name.
+- Preserves complete unquoted multi-word messages in `orkestrai ask`.
+- Treats timeouts and unconfirmed provider replies as explicit failures instead of successful consultations.
+- Automatically hands `task done` completion back to the leader without overwriting an unfinished human draft.
+- Validates real Claude-to-Codex and Codex-to-Claude conversations from the correct provider transcripts.
+
 ## 0.8.1 — 2026-08-10
 
 - Fixes first-click global dictation and adds pinning, dragging, and automatic panel avoidance to the voice orb.

@@ -2,6 +2,15 @@
 
 [Português](CHANGELOG.md) · [English](CHANGELOG.en.md) · [Español](CHANGELOG.es.md)
 
+## 0.8.2 — 2026-08-10
+
+- Vincula las sesiones rollout de Codex al directorio real del workspace para evitar conversaciones cruzadas entre proyectos concurrentes.
+- Vincula las sesiones Kimi mediante el hash exacto de la ruta del workspace, no solo por el nombre de la carpeta final.
+- Conserva mensajes completos de varias palabras sin comillas en `orkestrai ask`.
+- Trata los timeouts y respuestas no confirmadas como fallos explícitos, no como consultas exitosas.
+- Entrega automáticamente la finalización de `task done` al líder sin sobrescribir un borrador humano todavía no enviado.
+- Valida conversaciones reales de Claude a Codex y de Codex a Claude mediante los transcripts correctos de los providers.
+
 ## 0.8.1 — 2026-08-10
 
 - Corrige el dictado global desde el primer clic y agrega fijación, arrastre y desvío automático de paneles a la esfera de voz.
